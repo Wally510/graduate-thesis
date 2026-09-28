@@ -1,0 +1,121 @@
+{
+  "snapshot_date": "2026-09-28",
+  "purpose": "selected source for public browsing; not a complete standalone reproduction package",
+  "algorithm_changes": false,
+  "files": [
+    {
+      "path": "code/pretraining/ecg_ppg_multitask_pretrain_orthogonal_modality_flexible_merged.py",
+      "original_path": "fp53/pretrain_hparam_audit/foundation_stage2_ppg2ecg_aux_bundle_20260701-26/ecg_ppg_multitask_pretrain_orthogonal_modality_flexible_merged.py",
+      "sha256": "5ab2533f412706228252bd45c5f3468b7415838e271f337c0d53365e02068401",
+      "bytes": 35134
+    },
+    {
+      "path": "code/pretraining/make_dual_view_virtual_r_alignment_pack.py",
+      "original_path": "fp53/pretrain_hparam_audit/foundation_stage2_ppg2ecg_aux_bundle_20260701-26/make_dual_view_virtual_r_alignment_pack.py",
+      "sha256": "0b4b68f4463dd1378d08e5d7a6ce8943dd14d64a91ea9e3866acfc239ac5ec87",
+      "bytes": 11905
+    },
+    {
+      "path": "code/pretraining/train_dual_view_virtual_r_alignment_packed_amp_merged.py",
+      "original_path": "fp53/pretrain_hparam_audit/foundation_stage2_ppg2ecg_aux_bundle_20260701-26/train_dual_view_virtual_r_alignment_packed_amp_merged.py",
+      "sha256": "fd87676f0fa21a300ff38624a857768eefb3069b4bc8ea4907b75c34f6addaf7",
+      "bytes": 20032
+    },
+    {
+      "path": "code/pretraining/train_stage2_recon_modality_flexible_packed_ddp.py",
+      "original_path": "fp53/pretrain_hparam_audit/foundation_stage2_ppg2ecg_aux_bundle_20260701-26/train_stage2_recon_modality_flexible_packed_ddp.py",
+      "sha256": "2360ebb1c4eb8bc59c46d941f15be8f3d8c63b517083078a2baa6a32d407d116",
+      "bytes": 34093
+    },
+    {
+      "path": "code/downstream/benchmark_butppg_foundation_models.py",
+      "original_path": "fp53/code/benchmark_butppg_foundation_models.py",
+      "sha256": "2eb7a42eabb8cd060827cb9c345d70399fcf9409de7ad37ce355e9d7e1cbde0a",
+      "bytes": 33926
+    },
+    {
+      "path": "code/downstream/benchmark_new4_virtual_r.py",
+      "original_path": "fp53/code/benchmark_new4_virtual_r.py",
+      "sha256": "d5a2fef18e74d130eb6774e52495fa8a8df295b9db3c1b5f2398d31f90b57078",
+      "bytes": 20541
+    },
+    {
+      "path": "code/downstream/direct_bp_orthogonal_foundation_singlefile.py",
+      "original_path": "fp53/code/direct_bp_orthogonal_foundation_singlefile.py",
+      "sha256": "ee4633b59da1d9ab8a068445f9a39b57bfd4922b2f9406252ef633ef7c2d3e45",
+      "bytes": 89239
+    },
+    {
+      "path": "code/reconstruction/evaluate_phase8_vtac.py",
+      "original_path": "server_packages/shared_evaluation/splitenc8_phase8_vtac_external_eval_20260725/evaluate_phase8_vtac.py",
+      "sha256": "37669560f5d842025e1b9b4d41c831325049f9c957169795791fe3a1ca5ffaee",
+      "bytes": 31096
+    },
+    {
+      "path": "code/reconstruction/evaluate_phase8_vtac_long_gaps.py",
+      "original_path": "server_packages/shared_evaluation/splitenc8_phase8_vtac_external_eval_20260725/evaluate_phase8_vtac_long_gaps.py",
+      "sha256": "b63e74cf231cc1298be12d9beda0f4641ba33430ea5812446a187b9ee33e8f42",
+      "bytes": 24445
+    },
+    {
+      "path": "code/evaluation/aggregate_denoising_epochs.py",
+      "original_path": "server_packages/shared_evaluation/splitenc8_token_dense_vtac_all_epochs_recon_denoise_20260730/aggregate_denoising_epochs.py",
+      "sha256": "c7679bc0423008b66586fedb56e5bc6fa479b2362369eddc93cd18d90f640542",
+      "bytes": 4065
+    },
+    {
+      "path": "code/evaluation/aggregate_reconstruction_epochs.py",
+      "original_path": "server_packages/shared_evaluation/splitenc8_token_dense_vtac_all_epochs_recon_denoise_20260730/aggregate_reconstruction_epochs.py",
+      "sha256": "ffa7a767e2f50b060822b70ab792eaab1e38185678cc1b3479574086a0042c07",
+      "bytes": 9779
+    },
+    {
+      "path": "code/evaluation/audit_denoising_epoch.py",
+      "original_path": "server_packages/shared_evaluation/splitenc8_token_dense_vtac_all_epochs_recon_denoise_20260730/audit_denoising_epoch.py",
+      "sha256": "624ef887bfae5e3a47e5acb193cb9984dbd78db2dc63eef778a5aeb22c461d4c",
+      "bytes": 4325
+    },
+    {
+      "path": "code/evaluation/audit_fullfinetune_outputs.py",
+      "original_path": "server_packages/shared_evaluation/splitenc8_token_dense_vtac_all_epochs_recon_denoise_20260730/audit_fullfinetune_outputs.py",
+      "sha256": "209fac0c627ded5fdeaed0bf1dd2fea0f7752786688337b0c81e7dcdf0c6e86b",
+      "bytes": 9825
+    },
+    {
+      "path": "code/evaluation/evaluate_fullfinetune_vtac.py",
+      "original_path": "server_packages/shared_evaluation/splitenc8_token_dense_vtac_all_epochs_recon_denoise_20260730/evaluate_fullfinetune_vtac.py",
+      "sha256": "f515e2da3719aa6832e9f472757ccfdd41f90751e66b7e94ea8b7e802e441743",
+      "bytes": 6063
+    },
+    {
+      "path": "code/evaluation/evaluate_vtac_denoising.py",
+      "original_path": "server_packages/shared_evaluation/splitenc8_token_dense_vtac_all_epochs_recon_denoise_20260730/evaluate_vtac_denoising.py",
+      "sha256": "5307b24d82270ea3e68b7e23d837cf64afe5df10d8705297af5145dc09628633",
+      "bytes": 17905
+    },
+    {
+      "path": "code/denoising/ddp_train_core.py",
+      "original_path": "result_review/splitenc8_token_dense_denoising_fullfinetune_20260729/ddp_train_core.py",
+      "sha256": "5535d5758b82421a875af50b83e7842b0a4898124db2bde405db36b71f826dba",
+      "bytes": 19538
+    },
+    {
+      "path": "code/denoising/train_denoising.py",
+      "original_path": "result_review/splitenc8_token_dense_denoising_fullfinetune_20260729/train_denoising.py",
+      "sha256": "377fe52eb274dd524e2316117e43d96f06993672cfdb0406a8ea9c14cce34302",
+      "bytes": 20525
+    },
+    {
+      "path": "tools/FP-90_restore_compacted_project.py",
+      "original_path": "project_control/FP-90_restore_compacted_project.py",
+      "sha256": "5230c5924ba982d5d5e11bff565f3abe22938207c2eeee649a58fe1f1411eb24",
+      "bytes": 2675
+    },
+    {
+      "path": "tools/FP-90_restore_weights.py",
+      "original_path": "project_control/FP-90_restore_weights.py",
+      "sha256": "7c186004c57e7be76db358da1b57301cf0da769183b640ac65ea3a6340d4cf76",
+      "bytes": 3906
+    }
+  ]
+}
