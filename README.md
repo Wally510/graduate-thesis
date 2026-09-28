@@ -43,7 +43,7 @@ flowchart LR
 | 去噪训练 | [train_denoising.py](code/denoising/train_denoising.py) | 噪声家族、严重度与训练流程 |
 | 评测与验收 | [evaluation/](code/evaluation/) | 重建/去噪评测、跨 epoch 汇总与输出检查 |
 
-这次公开了 **17 个研究源码文件和 2 个归档恢复脚本**。它们按用途重新分组，文件内容保持与本地原件一致；[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) 记录原始位置与 SHA-256，便于回到完整归档中追溯。
+首批公开了 **17 个研究源码文件和 2 个归档恢复脚本**。它们按用途重新分组，文件内容保持与本地原件一致；[SOURCE_MANIFEST.json](SOURCE_MANIFEST.json) 记录原始位置与 SHA-256，便于回到完整归档中追溯。
 
 ## 仓库内容
 
@@ -60,6 +60,16 @@ SOURCE_MANIFEST.json 原始路径、文件大小与哈希
 ```
 
 Git 仓库提供便于浏览的源码选集；完整研究目录、论文材料、实验导出和权重保存在 Releases。克隆仓库不会自动下载这些大附件。
+
+<!-- thesis-supplement:start -->
+## 补充材料与新增源码（2026-09-28）
+
+新增来自桌面“论文”目录的 **17 个 Python 源码**，覆盖[原始数据预处理](code/supplement/preprocessing/)、[虚拟 R 峰对齐](code/supplement/alignment/)、[PAT 数据与评测](code/supplement/pat/)和 [ECG→PPG 翻译实验](code/supplement/translation/)。文件内容与本地原件一致，新增源码的版本与依赖见[补充代码导览](code/supplement/README.md)。
+
+**补充归档状态：后台打包、上传与校验中，尚未公开发布。** 包含 3,599 个研究文件（打包前约 12.07 GiB），计划 9 个 ZIP；完成后此处会自动更新下载链接。
+
+完整内容、排除范围和恢复方法见[补充材料说明](code/SUPPLEMENT.md)。翻译源码作为历史实验实现公开，不在本次发布中新增或替代论文性能结论。
+<!-- thesis-supplement:end -->
 
 ## 下载完整项目与模型权重
 

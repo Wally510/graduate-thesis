@@ -1,0 +1,126 @@
+{
+  "source_root": "Desktop/论文",
+  "snapshot_date": "2026-09-28",
+  "algorithm_changes": false,
+  "files": [
+    {
+      "path": "code/supplement/preprocessing/prepare_ecg_ppg_pretrain_npz.py",
+      "original_path": "CSFM/原模型/prepare_ecg_ppg_pretrain_npz.py",
+      "bytes": 18955,
+      "sha256": "839f03b79491a1930158c0fed80136151bb6a1a6e69c6906232aa8f5bbf896e6",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/preprocessing/prepare_ecg_ppg_pretrain_npz_permissive.py",
+      "original_path": "CSFM/原模型/prepare_ecg_ppg_pretrain_npz_permissive.py",
+      "bytes": 8683,
+      "sha256": "86fd7b0d4294b65b62a9efe1916e041950e0f5ec73835f35742cce33730ba1bd",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/preprocessing/prepare_ecg_ppg_foundation_multisource_npz_fast_uncompressed.py",
+      "original_path": "CSFM/原模型/prepare_ecg_ppg_foundation_multisource_npz_fast_uncompressed.py",
+      "bytes": 20536,
+      "sha256": "797eb095f2f02b50334d552a0ff09b647ee0e881df3ca8ba01b22304d69b799a",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/alignment/train_dual_view_virtual_r_alignment.py",
+      "original_path": "Code/partner_virtual_r_foundation_chain_20260701/foundation_embedding_alignment_warmup_nosort_bundle_20260628/train_dual_view_virtual_r_alignment.py",
+      "bytes": 30143,
+      "sha256": "988a0c0553a8c5ea315aff778fae721284f5188d2688487be1612ed8eebb4d7f",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/alignment/ecg_ppg_multitask_pretrain_orthogonal_modality_flexible.py",
+      "original_path": "Code/partner_virtual_r_foundation_chain_20260701/foundation_embedding_alignment_warmup_nosort_bundle_20260628/ecg_ppg_multitask_pretrain_orthogonal_modality_flexible.py",
+      "bytes": 34070,
+      "sha256": "21770e81e04d73c77251b89b53d2cd3be89985f44c3bfe079cff4e2f2027d3dc",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/pat/dataset/build_pat_datasets.py",
+      "original_path": "new/结果/PAT/pat_regression_4datasets_5fold_20260728/build_pat_datasets.py",
+      "bytes": 16152,
+      "sha256": "1122cb064564ee8474a86404f7dbba171eeb6164d74d950b290960c9527a0a56",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/pat/dataset/make_folds.py",
+      "original_path": "new/结果/PAT/pat_regression_4datasets_5fold_20260728/make_folds.py",
+      "bytes": 4601,
+      "sha256": "09547492bddffb0f135b499fca6cd0d3f1eaa8807e01f7c1a4e3e9a62d4b9cb1",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/pat/dataset/pat_core.py",
+      "original_path": "new/结果/PAT/pat_regression_4datasets_5fold_20260728/pat_core.py",
+      "bytes": 8625,
+      "sha256": "441fa4f3682082101ad7596003485c399eb221bc38e25b3990595d7bd266c734",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/pat/dataset/run_pat_benchmark.py",
+      "original_path": "new/结果/PAT/pat_regression_4datasets_5fold_20260728/run_pat_benchmark.py",
+      "bytes": 14511,
+      "sha256": "61d323b046f8f90b348f1596ccc9c7a60137bf7f1d51f10976ae226158f64324",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/pat/splitenc8/run_splitenc8_pat.py",
+      "original_path": "new/结果/PAT/stage2_splitenc8_pat_regression_4datasets_5fold_20260728/run_splitenc8_pat.py",
+      "bytes": 19338,
+      "sha256": "7ae82cc9808acc0df9bccf35a518f8681f175d551fde37760a97656f9ed9eaa5",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/pat/splitenc8/summarize_results.py",
+      "original_path": "new/结果/PAT/stage2_splitenc8_pat_regression_4datasets_5fold_20260728/summarize_results.py",
+      "bytes": 2630,
+      "sha256": "75b1affff9dee7a34bc4ed7add332e04ba5df9cb5152228c0bf7bf67a83d514c",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/pat/splitenc8/validate_assets.py",
+      "original_path": "new/结果/PAT/stage2_splitenc8_pat_regression_4datasets_5fold_20260728/validate_assets.py",
+      "bytes": 6939,
+      "sha256": "7036a41da4060e63528482eeade9ce91f1a922ad700a715ea05a7e3ec72642e7",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/translation/build_common_protocol.py",
+      "original_path": "接手翻译重建/splitenc8_sc_common_raw10s_allbeats_translation_20260823/build_common_protocol.py",
+      "bytes": 13146,
+      "sha256": "a874034a389b62856531d72cc57fa863d2837ccd0686ba2fc7a14df28c1f7c8c",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/translation/common_raw10s.py",
+      "original_path": "接手翻译重建/splitenc8_sc_common_raw10s_allbeats_translation_20260823/common_raw10s.py",
+      "bytes": 17867,
+      "sha256": "843a1c702cb9350a363ccf22b832d900f50dbccad21f5b4cd1da2c76b502adbe",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/translation/evaluate_splitenc8_sc.py",
+      "original_path": "接手翻译重建/splitenc8_sc_common_raw10s_allbeats_translation_20260823/evaluate_splitenc8_sc.py",
+      "bytes": 15885,
+      "sha256": "86556e6807fc689d32814f5aeb203080e6a98a9ca9171195d13da8c65c6ec9ca",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/translation/splitenc8_sc_model.py",
+      "original_path": "接手翻译重建/splitenc8_sc_common_raw10s_allbeats_translation_20260823/splitenc8_sc_model.py",
+      "bytes": 8170,
+      "sha256": "e8e0864d4233cfeb3f415a32308c5f41ac1c59d1024b169463e0a857990cd373",
+      "identical_existing_source": null
+    },
+    {
+      "path": "code/supplement/translation/train_splitenc8_sc_ddp.py",
+      "original_path": "接手翻译重建/splitenc8_sc_common_raw10s_allbeats_translation_20260823/train_splitenc8_sc_ddp.py",
+      "bytes": 18527,
+      "sha256": "803b939a14c059927d00fe9e81d4a5da8d18b45b88b37c4b240bf819b2713ce1",
+      "identical_existing_source": null
+    }
+  ]
+}
